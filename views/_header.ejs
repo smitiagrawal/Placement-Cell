@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="/CSS/header.css">
+<header>
+    <div id="logo">
+        <a href="/"><h1 style="color:black;"> Welcome To Placement Cell</h1></a>
+    </div>
+
+    <% if(locals.user){%>
+        <div id="welcome-text">
+            <h2 style="color:black;">Hello! <%=user.name%> </h2>
+            <a href="/users/sign-out" class="btn btn-primary">Sign OUT</a>
+        </div>
+    <%} else{%>
+        <div>
+        <a href="/users/sign-up" class="btn btn-primary" id = "hide">Create Employee Account</a>
+        <div id = "back" style="display:none;">
+            <span style="font-size:1.25rem; color:blue;">Already have an account</span>
+            <a href="/users/sign-in" class="btn btn-warning" style="margin-left: 10px;" >Sign IN</a>
+        </div>
+        
+        </div>
+        <%}%>
+    </header>

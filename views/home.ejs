@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="/CSS/home.css">
+
+<div id="home-container">
+    <%if(locals.user){%>
+        <div id="display">
+            <div id="user-name">
+                <h3>Welcome <%=user.name%>,</h3>
+            </div>
+            <div id="buttons">
+                <a href="/students/fetch" class="btn btn-primary btn-lg">Students</a>
+                <a href="/interviews/fetch-interview" class="btn btn-primary btn-lg">Interviews</a>
+                <a href="/csv/download" class="btn btn-primary btn-lg">Export Results</a>
+                
+            </div>
+        </div>
+    <%}else{%>
+        <div>
+            <%-include('user_sign_in'); -%>
+        </div>
+    <%}%>
+</div>
