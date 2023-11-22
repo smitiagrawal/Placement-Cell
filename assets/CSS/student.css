@@ -1,0 +1,20 @@
+#student-title{
+    text-align: center;
+}
+
+#student-form form{
+    display: grid;
+    align-self: center;
+    width: 60%;
+    padding:20px;
+    opacity: 0.8;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #FBE7C6;
+  background-image: url(Manipal_University_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}

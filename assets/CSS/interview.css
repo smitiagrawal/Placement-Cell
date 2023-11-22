@@ -1,0 +1,17 @@
+#interview-title{
+    text-align: center;
+}
+
+#interview-form form{
+    width: 50%;
+    display: flex;
+    align-self: center;
+}
+
+body {
+  background-color: #FBE7C6;
+  background-image: url(Manipal_University_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}

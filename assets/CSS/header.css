@@ -1,0 +1,23 @@
+header{
+    background-color: #C15324;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 90px;
+    opacity: 0.8;
+    font-family: Brush Script MT,cursive;
+    color: black;
+}
+
+#logo a:hover{  
+    text-decoration:none;
+}
+
+#welcome-text{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
